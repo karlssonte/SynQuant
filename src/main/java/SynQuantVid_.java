@@ -71,8 +71,8 @@ public class SynQuantVid_ implements PlugIn, DialogListener{
 		GenericDialog gd = new GenericDialog("3D Particles - Data and Parameter Setting");
 		//gd.addNumericField("FDR Control for Particle Detection: ", 0.05, 3);//2.5-3.5 good
 		gd.addNumericField("Z-Score for Particle Detection: ", 10,  2);//2.5-3.5 good
-		gd.addNumericField("Min Particle Size: ",10, 0);//2.5-3.5 good
-		gd.addNumericField("Max Particle Size: ", 200, 0);//2.5-3.5 good
+		gd.addNumericField("Min Particle Size: ",50, 0);//2.5-3.5 good
+		gd.addNumericField("Max Particle Size: ", 350, 0);//2.5-3.5 good
 		gd.addNumericField("Min fill: ", 0.5, 2);//2.5-3.5 good
 		gd.addNumericField("Max WH Ratio: ", 4, 0);//2.5-3.5 good
 		// Get the pointer to the pre-channel and post-channel
